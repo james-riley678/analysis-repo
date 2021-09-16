@@ -1,6 +1,6 @@
-# Baseline Engine
+# Regression Engine
 
-This service calulates baseling for certain metrics (Example energy)
+This service calulates preditions based on input data vs output data.
 
 # Author
 James Riley
