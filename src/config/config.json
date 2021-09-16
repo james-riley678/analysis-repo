@@ -1,0 +1,30 @@
+{
+    "jobs" : {
+        "Predictions" : {
+            "description" : "",
+            "jobEnabled" : true,
+            "triggers" :[
+                {
+                    "second" : "0",
+                    "minute" : "0",
+                    "hour" : "2",
+                    "day" : "*",
+                    "month" : "*",
+                    "dayOfWeek" : "*"
+                }
+            ]
+        }
+    },
+    "database" : {
+        "host" : "",
+        "database" : "",
+        "port" : "",
+        "user" : "",
+        "password" : "",
+        "poolSize" : 2
+    },
+	"logging" : {
+		"loggerLocation" : "/var/log/regression-engine.log",
+		"loggerLevel" : "INFO"
+	}
+}

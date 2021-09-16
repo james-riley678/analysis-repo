@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+build = "mypy app.py"
+prod = "python app.py"
+
+[dev-packages]
+
+[packages]
+pandas = "==1.2.3"
+func-timeout = "==4.3.3"
+pysftp = "==0.2.9"
+pycryptodome = "==3.9.7"
+xlrd = "==1.2.0"
+APScheduler = "==3.6.1"
+XlsxWriter = "==1.1.8"
+datetime_truncate = "==1.1."
+mysql-connector-python = "==8.0.23"
+scikit-learn = "==0.24.1"
+mypy = "==0.780"
+
+[requires]
+python_version = "3.8"
