@@ -5,7 +5,7 @@ from typing import List, Set, Dict, Tuple, Optional, Any, Iterable
 from helpers.config import config, schedulers
 from helpers.logger import logger
 from lib.models import Pool
-from lib.types.IEnergyData import ITableStructure
+from lib.types.ITableStructure import ITableStructure
 
 # PyPi Modules
 from sklearn.model_selection import train_test_split
